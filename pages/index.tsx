@@ -11,7 +11,7 @@ const Home = ({ artists }) => {
       color="purple"
       subtitle="profile"
       title={`${user?.firstName} ${user?.lastName}`}
-      description={`${user.playlistsCount} public playlists`}
+      description={`${user?.playlistsCount} public playlists`}
     >
       <Box color="white" paddingX="40px">
         <Box marginBottom="40px">
